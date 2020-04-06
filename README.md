@@ -27,7 +27,7 @@ The ENTER character corresponds to 13 in ASCII table (if we read an ENTER in the
 
 For each line, the program must count how many times a certain character appears.
 
-consider only letters, a...z, A...Z, discerning upper and lower case. For each line, output the most frequent character (appearing MAX times), print the list of characters appearing at least MAX/2 times. After each character printed, print also the number of occurrences.
+I consider only letters, a...z, A...Z, discerning upper and lower case. For each line, output the most frequent character (appearing MAX times), print the list of characters appearing at least MAX/2 times. After each character printed, print also the number of occurrences.
 
 # Cryptographic algorithm
 

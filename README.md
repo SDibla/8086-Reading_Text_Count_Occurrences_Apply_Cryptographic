@@ -1,7 +1,7 @@
 # 8086-Reading-text-Count-occurrences-Apply-Cryptographic
 8086 Assembly code for read in input a short text of 4 lines, each of these lines long from 20 to 50 characters. Count number of occurrences of the letters and apply a cryptographic algorithm (Caesar cipher).
 
-# Reading
+## Reading
 
 The program reads the lines with the instruction INT 21H and stores them in
 
@@ -13,7 +13,7 @@ third_line DB 50 DUP(?)
 
 fourth_line DB 50 DUP(?)
 
-# End of Reading
+## End of Reading
 
 Reading stops when one of these conditions is satisfied:
 
@@ -23,13 +23,13 @@ Reading stops when one of these conditions is satisfied:
 
 The ENTER character corresponds to 13 in ASCII table (if we read an ENTER in the first 20 characters, the reading must continue).
 
-# Number of occurrences
+## Number of occurrences
 
 For each line, the program must count how many times a certain character appears.
 
 I consider only letters, a...z, A...Z, discerning upper and lower case. For each line, output the most frequent character (appearing MAX times), print the list of characters appearing at least MAX/2 times. After each character printed, print also the number of occurrences.
 
-# Cryptographic algorithm
+## Cryptographic algorithm
 
 I print the text using Caesar cipher, only applied to a...z, A...Z characters.
 
